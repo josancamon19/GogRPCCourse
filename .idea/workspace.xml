@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="854835ed-cf7f-4d4e-90c8-94cbad71769e" name="Default Changelist" comment="" />
+    <list default="true" id="854835ed-cf7f-4d4e-90c8-94cbad71769e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/6-bidirectional-streaming/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-bidirectional-streaming/greetpb/greet.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-bidirectional-streaming/greetpb/greet.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6-bidirectional-streaming/server/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +39,9 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="urls">
       <list>
@@ -23,6 +50,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ko5Rw9jpKfmFtxgDJ96MRytrRa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,42 +68,24 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/1-greet/client" />
-      <recent name="$PROJECT_DIR$/1-greet/server" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/4-server-streaming" />
       <recent name="$PROJECT_DIR$/2-unary" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/1-greet/client" />
+      <recent name="$PROJECT_DIR$/1-greet/server" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build udemyGRPC/5-client-streaming/client">
-    <configuration name="go build udemyGRPC/3-exercise-unary/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="udemyGRPC" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/3-exercise-unary/client/client.go" />
-      <package value="udemyGRPC/3-exercise-unary/client" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build udemyGRPC/6-bidirectional-streaming/client">
     <configuration name="go build udemyGRPC/4-server-streaming/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="udemyGRPC" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/4-server-streaming/client/client.go" />
       <package value="udemyGRPC/4-server-streaming/client" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build udemyGRPC/4-server-streaming/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="udemyGRPC" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/4-server-streaming/server/server.go" />
-      <package value="udemyGRPC/4-server-streaming/server" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -97,13 +107,31 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build udemyGRPC/6-bidirectional-streaming/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/6-bidirectional-streaming/client/client.go" />
+      <package value="udemyGRPC/6-bidirectional-streaming/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build udemyGRPC/6-bidirectional-streaming/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/6-bidirectional-streaming/server/server.go" />
+      <package value="udemyGRPC/6-bidirectional-streaming/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build udemyGRPC/6-bidirectional-streaming/client" />
+        <item itemvalue="Go Build.go build udemyGRPC/6-bidirectional-streaming/server" />
         <item itemvalue="Go Build.go build udemyGRPC/5-client-streaming/client" />
         <item itemvalue="Go Build.go build udemyGRPC/5-client-streaming/server" />
         <item itemvalue="Go Build.go build udemyGRPC/4-server-streaming/client" />
-        <item itemvalue="Go Build.go build udemyGRPC/4-server-streaming/server" />
-        <item itemvalue="Go Build.go build udemyGRPC/3-exercise-unary/client" />
       </list>
     </recent_temporary>
   </component>
@@ -111,11 +139,30 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="2263" y="520" key="#Go_Modules" timestamp="1606359412673">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="2263" y="520" key="#Go_Modules/0.0.3440.1440@0.0.3440.1440" timestamp="1606359412673" />
+    <state x="710" y="579" key="Github.ShareDialog" timestamp="1606622112220">
+      <screen x="0" y="25" width="3440" height="1353" />
+    </state>
+    <state x="710" y="579" key="Github.ShareDialog/0.25.3440.1353@0.25.3440.1353" timestamp="1606622112220" />
+    <state x="598" y="346" key="Github.UntrackedFilesDialog" timestamp="1606622120707">
+      <screen x="0" y="25" width="3440" height="1353" />
+    </state>
+    <state x="598" y="346" key="Github.UntrackedFilesDialog/0.25.3440.1353@0.25.3440.1353" timestamp="1606622120707" />
     <state width="1509" height="410" key="GridCell.Tab.0.bottom" timestamp="1606611668390">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
