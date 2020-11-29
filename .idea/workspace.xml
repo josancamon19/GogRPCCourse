@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="854835ed-cf7f-4d4e-90c8-94cbad71769e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../.." />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ko5Rw9jpKfmFtxgDJ96MRytrRa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/1-greet/client" />
+      <recent name="$PROJECT_DIR$/1-greet/server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/4-server-streaming" />
+      <recent name="$PROJECT_DIR$/2-unary" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build udemyGRPC/5-client-streaming/client">
+    <configuration name="go build udemyGRPC/3-exercise-unary/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/3-exercise-unary/client/client.go" />
+      <package value="udemyGRPC/3-exercise-unary/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build udemyGRPC/4-server-streaming/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/4-server-streaming/client/client.go" />
+      <package value="udemyGRPC/4-server-streaming/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build udemyGRPC/4-server-streaming/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/4-server-streaming/server/server.go" />
+      <package value="udemyGRPC/4-server-streaming/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build udemyGRPC/5-client-streaming/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/5-client-streaming/client/client.go" />
+      <package value="udemyGRPC/5-client-streaming/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build udemyGRPC/5-client-streaming/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/5-client-streaming/server/server.go" />
+      <package value="udemyGRPC/5-client-streaming/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build udemyGRPC/5-client-streaming/client" />
+        <item itemvalue="Go Build.go build udemyGRPC/5-client-streaming/server" />
+        <item itemvalue="Go Build.go build udemyGRPC/4-server-streaming/client" />
+        <item itemvalue="Go Build.go build udemyGRPC/4-server-streaming/server" />
+        <item itemvalue="Go Build.go build udemyGRPC/3-exercise-unary/client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2263" y="520" key="#Go_Modules" timestamp="1606359412673">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="2263" y="520" key="#Go_Modules/0.0.3440.1440@0.0.3440.1440" timestamp="1606359412673" />
+    <state width="1509" height="410" key="GridCell.Tab.0.bottom" timestamp="1606611668390">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1509" height="410" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606611668390" />
+    <state width="3388" height="410" key="GridCell.Tab.0.bottom/0.25.3440.1353@0.25.3440.1353" timestamp="1606532443622" />
+    <state width="1509" height="410" key="GridCell.Tab.0.center" timestamp="1606611668390">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1509" height="410" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606611668390" />
+    <state width="3388" height="410" key="GridCell.Tab.0.center/0.25.3440.1353@0.25.3440.1353" timestamp="1606532443621" />
+    <state width="1509" height="410" key="GridCell.Tab.0.left" timestamp="1606611668389">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1509" height="410" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606611668389" />
+    <state width="3388" height="410" key="GridCell.Tab.0.left/0.25.3440.1353@0.25.3440.1353" timestamp="1606532443621" />
+    <state width="1509" height="410" key="GridCell.Tab.0.right" timestamp="1606611668390">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1509" height="410" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606611668390" />
+    <state width="3388" height="410" key="GridCell.Tab.0.right/0.25.3440.1353@0.25.3440.1353" timestamp="1606532443621" />
+    <state x="2022" y="356" key="SettingsEditor" timestamp="1606354549656">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="2022" y="356" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1606354549656" />
+    <state x="361" y="324" key="search.everywhere.popup" timestamp="1606592418951">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="361" y="324" key="search.everywhere.popup/0.0.3440.1440@0.0.3440.1440" timestamp="1606592418951" />
+  </component>
+</project>

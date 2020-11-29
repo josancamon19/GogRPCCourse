@@ -1,0 +1,1 @@
+protoc protos/sum_api.proto --go_out=plugins=grpc:.

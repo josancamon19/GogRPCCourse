@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package protos;
+
+message APIRequest{
+  int32 integer1 = 1;
+  int32 integer2 = 2;
+}
+
+message APIResponse {
+  int32 result = 1;
+}
+
+service SumAPI {
+  rpc Sum(APIRequest) returns (APIResponse) {};
+}
