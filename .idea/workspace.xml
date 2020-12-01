@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="854835ed-cf7f-4d4e-90c8-94cbad71769e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6-bidirectional-streaming/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-bidirectional-streaming/greetpb/greet.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-bidirectional-streaming/greetpb/greet.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6-bidirectional-streaming/server/server.go" afterDir="false" />
+    <list default="true" id="854835ed-cf7f-4d4e-90c8-94cbad71769e" name="Default Changelist" comment="bidirectional streaming example code">
+      <change afterPath="$PROJECT_DIR$/7-mongodb-crud/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-mongodb-crud/protos/blog.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-mongodb-crud/protos/blog.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7-mongodb-crud/server/server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,12 +50,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1ko5Rw9jpKfmFtxgDJ96MRytrRa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,6 +68,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
@@ -79,31 +83,13 @@
       <recent name="$PROJECT_DIR$/1-greet/server" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build udemyGRPC/6-bidirectional-streaming/client">
-    <configuration name="go build udemyGRPC/4-server-streaming/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="udemyGRPC" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/4-server-streaming/client/client.go" />
-      <package value="udemyGRPC/4-server-streaming/client" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build udemyGRPC/7-mongodb-crud/client">
     <configuration name="go build udemyGRPC/5-client-streaming/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="udemyGRPC" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/5-client-streaming/client/client.go" />
       <package value="udemyGRPC/5-client-streaming/client" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build udemyGRPC/5-client-streaming/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="udemyGRPC" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/5-client-streaming/server/server.go" />
-      <package value="udemyGRPC/5-client-streaming/server" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -125,13 +111,31 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build udemyGRPC/7-mongodb-crud/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/7-mongodb-crud/client/client.go" />
+      <package value="udemyGRPC/7-mongodb-crud/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build udemyGRPC/7-mongodb-crud/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="udemyGRPC" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/7-mongodb-crud/server/server.go" />
+      <package value="udemyGRPC/7-mongodb-crud/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build udemyGRPC/7-mongodb-crud/client" />
+        <item itemvalue="Go Build.go build udemyGRPC/7-mongodb-crud/server" />
         <item itemvalue="Go Build.go build udemyGRPC/6-bidirectional-streaming/client" />
         <item itemvalue="Go Build.go build udemyGRPC/6-bidirectional-streaming/server" />
         <item itemvalue="Go Build.go build udemyGRPC/5-client-streaming/client" />
-        <item itemvalue="Go Build.go build udemyGRPC/5-client-streaming/server" />
-        <item itemvalue="Go Build.go build udemyGRPC/4-server-streaming/client" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +153,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="bidirectional streaming example code" />
+    <option name="LAST_COMMIT_MESSAGE" value="bidirectional streaming example code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2263" y="520" key="#Go_Modules" timestamp="1606359412673">
@@ -163,30 +173,38 @@
       <screen x="0" y="25" width="3440" height="1353" />
     </state>
     <state x="598" y="346" key="Github.UntrackedFilesDialog/0.25.3440.1353@0.25.3440.1353" timestamp="1606622120707" />
-    <state width="1509" height="410" key="GridCell.Tab.0.bottom" timestamp="1606611668390">
+    <state width="1662" height="410" key="GridCell.Tab.0.bottom" timestamp="1606832524461">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1509" height="410" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606611668390" />
-    <state width="3388" height="410" key="GridCell.Tab.0.bottom/0.25.3440.1353@0.25.3440.1353" timestamp="1606532443622" />
-    <state width="1509" height="410" key="GridCell.Tab.0.center" timestamp="1606611668390">
+    <state width="1662" height="410" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606832524461" />
+    <state width="1662" height="410" key="GridCell.Tab.0.bottom/0.25.3440.1353@0.25.3440.1353" timestamp="1606671800338" />
+    <state width="1662" height="410" key="GridCell.Tab.0.center" timestamp="1606832524460">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1509" height="410" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606611668390" />
-    <state width="3388" height="410" key="GridCell.Tab.0.center/0.25.3440.1353@0.25.3440.1353" timestamp="1606532443621" />
-    <state width="1509" height="410" key="GridCell.Tab.0.left" timestamp="1606611668389">
+    <state width="1662" height="410" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606832524460" />
+    <state width="1662" height="410" key="GridCell.Tab.0.center/0.25.3440.1353@0.25.3440.1353" timestamp="1606671800338" />
+    <state width="1662" height="410" key="GridCell.Tab.0.left" timestamp="1606832524460">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1509" height="410" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606611668389" />
-    <state width="3388" height="410" key="GridCell.Tab.0.left/0.25.3440.1353@0.25.3440.1353" timestamp="1606532443621" />
-    <state width="1509" height="410" key="GridCell.Tab.0.right" timestamp="1606611668390">
+    <state width="1662" height="410" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606832524460" />
+    <state width="1662" height="410" key="GridCell.Tab.0.left/0.25.3440.1353@0.25.3440.1353" timestamp="1606671800337" />
+    <state width="1662" height="410" key="GridCell.Tab.0.right" timestamp="1606832524461">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1509" height="410" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606611668390" />
-    <state width="3388" height="410" key="GridCell.Tab.0.right/0.25.3440.1353@0.25.3440.1353" timestamp="1606532443621" />
+    <state width="1662" height="410" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606832524461" />
+    <state width="1662" height="410" key="GridCell.Tab.0.right/0.25.3440.1353@0.25.3440.1353" timestamp="1606671800338" />
     <state x="2022" y="356" key="SettingsEditor" timestamp="1606354549656">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="2022" y="356" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1606354549656" />
+    <state x="357" y="394" key="Vcs.Push.Dialog.v2" timestamp="1606665045579">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="357" y="394" key="Vcs.Push.Dialog.v2/0.0.3440.1440@0.0.3440.1440" timestamp="1606665045579" />
+    <state x="639" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606670663475">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="639" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.3440.1440@0.0.3440.1440" timestamp="1606670663475" />
     <state x="361" y="324" key="search.everywhere.popup" timestamp="1606592418951">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
