@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -36,10 +37,55 @@ func initMongo() {
 		log.Fatal(err)
 	}
 	mongoCollection = mongoClient.Database("cluster0").Collection("blog")
-	fmt.Println(mongoCollection)
 }
 
-type server struct {
+type server struct{}
+
+func (s *server) ListBlogs(_ *blog.ListBlogRequest, stream blog.BlogService_ListBlogsServer) error {
+	blogsCursor, err := mongoCollection.Find(context.Background(), bson.D{})
+	if err != nil {
+		return status.Errorf(codes.Internal, fmt.Sprintf("Error retrieving list from mongoDB: %v", err))
+	}
+	defer blogsCursor.Close(context.Background())
+	for blogsCursor.Next(context.Background()) {
+		data := blogItem{}
+		err := blogsCursor.Decode(&data)
+		if err != nil {
+			return status.Errorf(codes.Internal, fmt.Sprintf("Error decoding data from mongoDB: %v", err))
+		}
+		fmt.Println(data)
+
+		_ = stream.Send(&blog.ListBlogResponse{Blog: &blog.Blog{
+			Id:       data.ID.Hex(),
+			AuthorId: data.AuthorID,
+			Title:    data.Title,
+			Content:  data.Content,
+		}})
+	}
+
+	if err := blogsCursor.Err(); err != nil {
+		return status.Errorf(codes.Internal, fmt.Sprintf("Unknwon internal error: %v", err))
+	}
+	return nil
+}
+
+func (s *server) ReadBlog(ctx context.Context, request *blog.ReadBlogRequest) (*blog.ReadBlogResponse, error) {
+	oid, err := primitive.ObjectIDFromHex(request.GetBlogId())
+	if err != nil {
+		return nil, status.Errorf(codes.InvalidArgument, fmt.Sprintf("Cannot parse ID"))
+	}
+	result := mongoCollection.FindOne(context.Background(), bson.M{"_id": oid})
+	var blogFound blogItem
+	if err := result.Decode(&blogFound); err != nil {
+		return nil, status.Errorf(
+			codes.NotFound, fmt.Sprintf("Blog with id %s not found: %v", oid.Hex(), err))
+	}
+	return &blog.ReadBlogResponse{Blog: &blog.Blog{
+		Id:       blogFound.ID.Hex(),
+		AuthorId: blogFound.AuthorID,
+		Title:    blogFound.Title,
+		Content:  blogFound.Content,
+	}}, nil
 }
 
 func (s *server) CreateBlog(ctx context.Context, request *blog.CreateBlogRequest) (*blog.CreateBlogResponse, error) {

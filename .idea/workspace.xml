@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="854835ed-cf7f-4d4e-90c8-94cbad71769e" name="Default Changelist" comment="bidirectional streaming example code">
-      <change afterPath="$PROJECT_DIR$/7-mongodb-crud/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-mongodb-crud/protos/blog.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-mongodb-crud/protos/blog.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7-mongodb-crud/server/server.go" afterDir="false" />
+    <list default="true" id="854835ed-cf7f-4d4e-90c8-94cbad71769e" name="Default Changelist" comment="create operation mongodb gRPC">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-mongodb-crud/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/7-mongodb-crud/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-mongodb-crud/protos/blog.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/7-mongodb-crud/protos/blog.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-mongodb-crud/protos/blog.proto" beforeDir="false" afterPath="$PROJECT_DIR$/7-mongodb-crud/protos/blog.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7-mongodb-crud/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/7-mongodb-crud/server/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="bidirectional streaming example code" />
-    <option name="LAST_COMMIT_MESSAGE" value="bidirectional streaming example code" />
+    <MESSAGE value="create operation mongodb gRPC" />
+    <option name="LAST_COMMIT_MESSAGE" value="create operation mongodb gRPC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2263" y="520" key="#Go_Modules" timestamp="1606359412673">
@@ -173,34 +175,50 @@
       <screen x="0" y="25" width="3440" height="1353" />
     </state>
     <state x="598" y="346" key="Github.UntrackedFilesDialog/0.25.3440.1353@0.25.3440.1353" timestamp="1606622120707" />
-    <state width="1662" height="410" key="GridCell.Tab.0.bottom" timestamp="1606832524461">
+    <state width="1662" height="410" key="GridCell.Tab.0.bottom" timestamp="1606839763065">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1662" height="410" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606832524461" />
+    <state width="1662" height="410" key="GridCell.Tab.0.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606839763065" />
     <state width="1662" height="410" key="GridCell.Tab.0.bottom/0.25.3440.1353@0.25.3440.1353" timestamp="1606671800338" />
-    <state width="1662" height="410" key="GridCell.Tab.0.center" timestamp="1606832524460">
+    <state width="1662" height="410" key="GridCell.Tab.0.center" timestamp="1606839763064">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1662" height="410" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606832524460" />
+    <state width="1662" height="410" key="GridCell.Tab.0.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606839763064" />
     <state width="1662" height="410" key="GridCell.Tab.0.center/0.25.3440.1353@0.25.3440.1353" timestamp="1606671800338" />
-    <state width="1662" height="410" key="GridCell.Tab.0.left" timestamp="1606832524460">
+    <state width="1662" height="410" key="GridCell.Tab.0.left" timestamp="1606839763064">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1662" height="410" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606832524460" />
+    <state width="1662" height="410" key="GridCell.Tab.0.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606839763064" />
     <state width="1662" height="410" key="GridCell.Tab.0.left/0.25.3440.1353@0.25.3440.1353" timestamp="1606671800337" />
-    <state width="1662" height="410" key="GridCell.Tab.0.right" timestamp="1606832524461">
+    <state width="1662" height="410" key="GridCell.Tab.0.right" timestamp="1606839763065">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state width="1662" height="410" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606832524461" />
+    <state width="1662" height="410" key="GridCell.Tab.0.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606839763065" />
     <state width="1662" height="410" key="GridCell.Tab.0.right/0.25.3440.1353@0.25.3440.1353" timestamp="1606671800338" />
+    <state width="1662" height="505" key="GridCell.Tab.1.bottom" timestamp="1606837509934">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1662" height="505" key="GridCell.Tab.1.bottom/0.0.3440.1440@0.0.3440.1440" timestamp="1606837509934" />
+    <state width="1662" height="505" key="GridCell.Tab.1.center" timestamp="1606837509933">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1662" height="505" key="GridCell.Tab.1.center/0.0.3440.1440@0.0.3440.1440" timestamp="1606837509933" />
+    <state width="1662" height="505" key="GridCell.Tab.1.left" timestamp="1606837509933">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1662" height="505" key="GridCell.Tab.1.left/0.0.3440.1440@0.0.3440.1440" timestamp="1606837509933" />
+    <state width="1662" height="505" key="GridCell.Tab.1.right" timestamp="1606837509933">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state width="1662" height="505" key="GridCell.Tab.1.right/0.0.3440.1440@0.0.3440.1440" timestamp="1606837509933" />
     <state x="2022" y="356" key="SettingsEditor" timestamp="1606354549656">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="2022" y="356" key="SettingsEditor/0.0.3440.1440@0.0.3440.1440" timestamp="1606354549656" />
-    <state x="357" y="394" key="Vcs.Push.Dialog.v2" timestamp="1606665045579">
+    <state x="357" y="394" key="Vcs.Push.Dialog.v2" timestamp="1606833649711">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
-    <state x="357" y="394" key="Vcs.Push.Dialog.v2/0.0.3440.1440@0.0.3440.1440" timestamp="1606665045579" />
+    <state x="357" y="394" key="Vcs.Push.Dialog.v2/0.0.3440.1440@0.0.3440.1440" timestamp="1606833649711" />
     <state x="639" y="621" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606670663475">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
